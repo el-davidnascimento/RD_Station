@@ -1,0 +1,320 @@
+{
+	"total": 1401,
+	"has_more": true,
+	"deals": [
+		{
+			"_id": "64b9952b2f56ef00149fc153",
+			"id": "64b9952b2f56ef00149fc153",
+			"name": "Ana Maria -",
+			"amount_montly": 0.0,
+			"amount_unique": 0.0,
+			"amount_total": 0.0,
+			"prediction_date": null,
+			"markup": "future",
+			"last_activity_at": "2023-07-20T17:15:13.926-03:00",
+			"interactions": 3,
+			"markup_last_activities": "today",
+			"created_at": "2023-07-20T17:12:28.094-03:00",
+			"updated_at": "2023-07-20T17:15:13.927-03:00",
+			"rating": 1,
+			"markup_created": "today",
+			"last_activity_content": "Status modificado",
+			"user_changed": false,
+			"hold": true,
+			"win": null,
+			"closed_at": null,
+			"stop_time_limit": {},
+			"organization": {
+				"_id": "64b9952b2f56ef00149fc154",
+				"id": "64b9952b2f56ef00149fc154",
+				"name": "Ana Maria -",
+				"address": null,
+				"address_latitude": null,
+				"address_longitude": null,
+				"user": {
+					"_id": "64aed0a30cb2e1000dc13944",
+					"id": "64aed0a30cb2e1000dc13944",
+					"name": "Izabelle Damasceno",
+					"email": "izabelle.damasceno@multiversoeducacao.com.br"
+				},
+				"organization_segments": []
+			},
+			"user": {
+				"_id": "64aed0a30cb2e1000dc13944",
+				"id": "64aed0a30cb2e1000dc13944",
+				"name": "Izabelle Damasceno",
+				"nickname": "ID",
+				"email": "izabelle.damasceno@multiversoeducacao.com.br"
+			},
+			"deal_stage": {
+				"_id": "6439621ac080ed001691a2b8",
+				"id": "6439621ac080ed001691a2b8",
+				"name": "Contato Humano",
+				"nickname": "CH",
+				"created_at": "2023-04-14T11:24:26.299-03:00",
+				"updated_at": "2023-06-14T14:24:33.267-03:00"
+			},
+			"contacts": [
+				{
+					"name": "Ana Maria -",
+					"title": null,
+					"notes": null,
+					"facebook": null,
+					"linkedin": null,
+					"skype": null,
+					"birthday": null,
+					"emails": [],
+					"phones": [
+						{
+							"phone": "8592099831",
+							"type": "work"
+						}
+					]
+				}
+			],
+			"deal_custom_fields": [
+				{
+					"value": null,
+					"created_at": null,
+					"updated_at": null,
+					"custom_field_id": "639774afa9441c000ce99542",
+					"custom_field": {
+						"_id": "639774afa9441c000ce99542",
+						"id": "639774afa9441c000ce99542",
+						"for": "deal",
+						"label": "Nome do(a) aluno(a)",
+						"order": 0,
+						"allow_new": false,
+						"required": false,
+						"type": "text",
+						"unique": false,
+						"visible": true,
+						"created_at": "2022-12-12T15:36:31.210-03:00",
+						"updated_at": "2022-12-13T15:32:15.559-03:00"
+					}
+				},
+				{
+					"value": null,
+					"created_at": null,
+					"updated_at": null,
+					"custom_field_id": "6398c3a8aa5a5a0012199e52",
+					"custom_field": {
+						"_id": "6398c3a8aa5a5a0012199e52",
+						"id": "6398c3a8aa5a5a0012199e52",
+						"for": "deal",
+						"label": "Data de Nascimento",
+						"order": 1,
+						"allow_new": false,
+						"required": false,
+						"type": "date",
+						"unique": false,
+						"visible": false,
+						"created_at": "2022-12-13T15:25:44.491-03:00",
+						"updated_at": "2023-01-31T11:28:16.001-03:00"
+					}
+				},
+				{
+					"value": null,
+					"created_at": null,
+					"updated_at": null,
+					"custom_field_id": "63861f2a69a5160015f5799c",
+					"custom_field": {
+						"_id": "63861f2a69a5160015f5799c",
+						"id": "63861f2a69a5160015f5799c",
+						"for": "deal",
+						"label": "Série de Interesse",
+						"order": 2,
+						"allow_new": false,
+						"required": false,
+						"type": "multiple_choice",
+						"unique": false,
+						"visible": true,
+						"created_at": "2022-11-29T12:03:06.647-03:00",
+						"updated_at": "2022-12-13T15:34:32.647-03:00"
+					}
+				},
+				{
+					"value": null,
+					"created_at": null,
+					"updated_at": null,
+					"custom_field_id": "6386108003c4ee00144f62b8",
+					"custom_field": {
+						"_id": "6386108003c4ee00144f62b8",
+						"id": "6386108003c4ee00144f62b8",
+						"for": "deal",
+						"label": "Interesse de Turnos",
+						"order": 3,
+						"allow_new": false,
+						"required": false,
+						"type": "multiple_choice",
+						"unique": false,
+						"visible": true,
+						"created_at": "2022-11-29T11:00:32.379-03:00",
+						"updated_at": "2022-12-13T16:07:30.868-03:00"
+					}
+				},
+				{
+					"value": null,
+					"created_at": null,
+					"updated_at": null,
+					"custom_field_id": "6398c47d3b5c58000bf7323b",
+					"custom_field": {
+						"_id": "6398c47d3b5c58000bf7323b",
+						"id": "6398c47d3b5c58000bf7323b",
+						"for": "deal",
+						"label": "Data para Visita",
+						"order": 4,
+						"allow_new": false,
+						"required": false,
+						"type": "date",
+						"unique": false,
+						"visible": false,
+						"created_at": "2022-12-13T15:29:17.522-03:00",
+						"updated_at": "2023-01-31T11:25:46.430-03:00"
+					}
+				},
+				{
+					"value": null,
+					"created_at": null,
+					"updated_at": null,
+					"custom_field_id": "6398c0509cefe6000a07df61",
+					"custom_field": {
+						"_id": "6398c0509cefe6000a07df61",
+						"id": "6398c0509cefe6000a07df61",
+						"for": "deal",
+						"label": "Fonte - Colégio Anterior",
+						"order": 5,
+						"allow_new": false,
+						"required": false,
+						"type": "text",
+						"unique": false,
+						"visible": false,
+						"created_at": "2022-12-13T15:11:28.203-03:00",
+						"updated_at": "2023-01-31T11:25:47.806-03:00"
+					}
+				},
+				{
+					"value": null,
+					"created_at": null,
+					"updated_at": null,
+					"custom_field_id": "63d92686d27abe000bed288b",
+					"custom_field": {
+						"_id": "63d92686d27abe000bed288b",
+						"id": "63d92686d27abe000bed288b",
+						"for": "deal",
+						"label": "Ocorrência",
+						"order": 7,
+						"allow_new": false,
+						"required": false,
+						"type": "multiple_choice",
+						"unique": false,
+						"visible": true,
+						"created_at": "2023-01-31T11:32:38.268-03:00",
+						"updated_at": "2023-01-31T11:32:38.268-03:00"
+					}
+				},
+				{
+					"value": null,
+					"created_at": null,
+					"updated_at": null,
+					"custom_field_id": "64529c8c7c5475000f11e40c",
+					"custom_field": {
+						"_id": "64529c8c7c5475000f11e40c",
+						"id": "64529c8c7c5475000f11e40c",
+						"for": "deal",
+						"label": "Registro Expansão",
+						"order": 8,
+						"allow_new": false,
+						"required": false,
+						"type": "option",
+						"unique": false,
+						"visible": false,
+						"created_at": "2023-05-03T14:40:28.033-03:00",
+						"updated_at": "2023-05-17T17:17:46.061-03:00"
+					}
+				},
+				{
+					"value": null,
+					"created_at": null,
+					"updated_at": null,
+					"custom_field_id": "649b9b27e553c7001d76af21",
+					"custom_field": {
+						"_id": "649b9b27e553c7001d76af21",
+						"id": "649b9b27e553c7001d76af21",
+						"for": "deal",
+						"label": "EXP | Código INEP",
+						"order": 9,
+						"allow_new": false,
+						"required": false,
+						"type": "text",
+						"unique": false,
+						"visible": true,
+						"created_at": "2023-06-27T23:29:59.659-03:00",
+						"updated_at": "2023-07-04T16:14:38.732-03:00"
+					}
+				},
+				{
+					"value": "",
+					"created_at": null,
+					"updated_at": null,
+					"custom_field_id": "649dde354dbbd600174bb938",
+					"custom_field": {
+						"_id": "649dde354dbbd600174bb938",
+						"id": "649dde354dbbd600174bb938",
+						"for": "deal",
+						"label": "EXP | Quant. de Alunos",
+						"order": 10,
+						"allow_new": true,
+						"required": false,
+						"type": "option",
+						"unique": false,
+						"visible": true,
+						"created_at": "2023-06-29T16:40:37.904-03:00",
+						"updated_at": "2023-07-04T16:14:32.449-03:00"
+					}
+				},
+				{
+					"value": "",
+					"created_at": null,
+					"updated_at": null,
+					"custom_field_id": "649de446ef1923000f29fba7",
+					"custom_field": {
+						"_id": "649de446ef1923000f29fba7",
+						"id": "649de446ef1923000f29fba7",
+						"for": "deal",
+						"label": "EXP | Faturamento",
+						"order": 11,
+						"allow_new": true,
+						"required": false,
+						"type": "option",
+						"unique": false,
+						"visible": true,
+						"created_at": "2023-06-29T17:06:30.516-03:00",
+						"updated_at": "2023-07-04T16:14:22.291-03:00"
+					}
+				},
+				{
+					"value": null,
+					"created_at": null,
+					"updated_at": null,
+					"custom_field_id": "64a46dc9236674000cb2e95c",
+					"custom_field": {
+						"_id": "64a46dc9236674000cb2e95c",
+						"id": "64a46dc9236674000cb2e95c",
+						"for": "deal",
+						"label": "EXP | Score Classificação",
+						"order": 12,
+						"allow_new": false,
+						"required": false,
+						"type": "text",
+						"unique": false,
+						"visible": true,
+						"created_at": "2023-07-04T16:06:49.745-03:00",
+						"updated_at": "2023-07-04T16:06:49.745-03:00"
+					}
+				}
+			],
+			"deal_products": []
+		}
+	]
+}

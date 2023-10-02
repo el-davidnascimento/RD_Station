@@ -1,0 +1,1205 @@
+{
+    "total": 1280, "has_more": true, "deals": [
+        {
+            "_id": "648083171e33e800019ad302",
+            "contacts": [
+                {
+                    "name": "Maria Jos\u00e9 da Silva Alves",
+                    "title": null, "notes": null,
+                    "facebook": null,
+                    "linkedin": null,
+                    "skype": null,
+                    "birthday": null,
+                    "emails": [
+                        {
+                            "email": "maria_alves76@outlook.com"
+                        }
+                    ],
+                    "phones": [
+                        {
+                            "phone": "+55 (85) 98853-2580",
+                            "type": null
+                        }
+                    ]
+                }
+            ],
+            "deal_custom_fields": [
+
+            ],
+            "deal_products": [
+
+            ]
+        },
+        {
+            "_id": "647f8606f3e2c80028b9e5c5",
+            "id": "647f8606f3e2c80028b9e5c5",
+            "name": "Cris Torres - Universo",
+            "amount_montly": 0.0,
+            "amount_unique": 0.0,
+            "amount_total": 0.0,
+            "prediction_date": null,
+            "markup": "future",
+            "last_activity_at": "2023-06-06T16:17:55.527-03:00",
+            "interactions": 3,
+            "markup_last_activities": "1 day",
+            "created_at": "2023-06-06T16:16:22.465-03:00",
+            "updated_at": "2023-06-06T16:17:55.527-03:00",
+            "rating": 1,
+            "markup_created": "1 day",
+            "last_activity_content": "Status modificado",
+            "user_changed": false,
+            "hold": null,
+            "win": false,
+            "closed_at": "2023-06-06T16:17:55.346-03:00",
+            "stop_time_limit": {
+
+            },
+            "organization": {
+                "_id": "647f8606f3e2c80028b9e5c6",
+                "id": "647f8606f3e2c80028b9e5c6",
+                "name": "Cris Torres Semijoias",
+                "address": null,
+                "address_latitude": null,
+                "address_longitude": null,
+                "user": {
+                    "_id": "638f274ad7dc07000d68ac51",
+                    "id": "638f274ad7dc07000d68ac51",
+                    "name": "Wilber Lima",
+                    "email": "wilber.lima@multiversoeducacao.com.br"
+                },
+                "organization_segments": [
+
+                ]
+            },
+            "user": {
+                "_id": "638f274ad7dc07000d68ac51",
+                "id": "638f274ad7dc07000d68ac51",
+                "name": "Wilber Lima",
+                "nickname": "WL",
+                "email": "wilber.lima@multiversoeducacao.com.br"
+            },
+            "deal_stage": {
+                "_id": "6352b06341d5a90017402dbd",
+                "id": "6352b06341d5a90017402dbd",
+                "name": "Contato humano",
+                "nickname": "CH",
+                "created_at": "2022-10-21T11:44:51.292-03:00",
+                "updated_at": "2023-01-30T11:11:33.533-03:00"
+            },
+            "deal_lost_reason": {
+                "_id": "63f8bb93b96b6500174face9",
+                "id": "63f8bb93b96b6500174face9",
+                "name": "Matriculou outra escola",
+                "created_at": "2023-02-24T10:28:51.033-03:00",
+                "updated_at": "2023-02-28T15:52:44.722-03:00"
+            },
+            "contacts": [
+                {
+                    "name": "Cris Torres Semijoias",
+                    "title": null,
+                    "notes": null,
+                    "facebook": null,
+                    "linkedin": null,
+                    "skype": null,
+                    "birthday": null,
+                    "emails": [
+
+                    ],
+                    "phones": [
+                        {
+                            "phone": "8581393400",
+                            "type": "work"
+                        }
+                        ]
+                }
+            ],
+            "deal_custom_fields": [
+                {
+                    "value": null,
+                    "created_at": null,
+                    "updated_at": null,
+                    "custom_field_id": "639774afa9441c000ce99542",
+                    "custom_field": {
+                        "_id": "639774afa9441c000ce99542",
+                        "id": "639774afa9441c000ce99542",
+                        "for": "deal",
+                        "label": "Nome do(a) aluno(a)",
+                        "order": 0,
+                        "allow_new": false,
+                        "required": false,
+                        "type": "text",
+                        "unique": false,
+                        "visible": true,
+                        "created_at": "2022-12-12T15:36:31.210-03:00",
+                        "updated_at": "2022-12-13T15:32:15.559-03:00"
+                    }
+                }, {
+                    "value": null,
+                    "created_at": null,
+                    "updated_at": null,
+                    "custom_field_id": "6398c3a8aa5a5a0012199e52",
+                    "custom_field": {
+                        "_id": "6398c3a8aa5a5a0012199e52",
+                        "id": "6398c3a8aa5a5a0012199e52",
+                        "for": "deal",
+                        "label": "Data de Nascimento",
+                        "order": 1,
+                        "allow_new": false,
+                        "required": false,
+                        "type": "date",
+                        "unique": false,
+                        "visible": false,
+                        "created_at": "2022-12-13T15:25:44.491-03:00",
+                        "updated_at": "2023-01-31T11:28:16.001-03:00"
+                    }
+                    },
+                    {
+                        "value": null,
+                        "created_at": null,
+                        "updated_at": null,
+                        "custom_field_id": "63861f2a69a5160015f5799c",
+                        "custom_field": {
+                            "_id": "63861f2a69a5160015f5799c",
+                            "id": "63861f2a69a5160015f5799c",
+                            "for": "deal",
+                            "label": "S\u00e9rie de Interesse",
+                            "order": 2,
+                            "allow_new": false,
+                            "required": false,
+                            "type": "multiple_choice",
+                            "unique": false,
+                            "visible": true,
+                            "created_at": "2022-11-29T12:03:06.647-03:00",
+                            "updated_at": "2022-12-13T15:34:32.647-03:00"
+                        }
+                        },
+                        {
+                            "value": null,
+                            "created_at": null,
+                            "updated_at": null,
+                            "custom_field_id": "6386108003c4ee00144f62b8",
+                            "custom_field": {
+                                "_id": "6386108003c4ee00144f62b8",
+                                "id": "6386108003c4ee00144f62b8",
+                                "for": "deal",
+                                "label": "Interesse de Turnos",
+                                "order": 3,
+                                "allow_new": false,
+                                "required": false,
+                                "type": "multiple_choice",
+                                "unique": false,
+                                "visible": true,
+                                "created_at": "2022-11-29T11:00:32.379-03:00",
+                                "updated_at": "2022-12-13T16:07:30.868-03:00"
+                            }
+                            },
+                            {
+                                "value": null,
+                                "created_at": null,
+                                "updated_at": null,
+                                "custom_field_id": "6398c47d3b5c58000bf7323b",
+                                "custom_field": {
+                                    "_id": "6398c47d3b5c58000bf7323b",
+                                    "id": "6398c47d3b5c58000bf7323b",
+                                    "for": "deal",
+                                    "label": "Data para Visita",
+                                    "order": 4,
+                                    "allow_new": false,
+                                    "required": false,
+                                    "type": "date",
+                                    "unique": false,
+                                    "visible": false,
+                                    "created_at": "2022-12-13T15:29:17.522-03:00",
+                                    "updated_at": "2023-01-31T11:25:46.430-03:00"
+                                }
+                                },
+                                {
+                                    "value": null,
+                                    "created_at": null,
+                                    "updated_at": null,
+                                    "custom_field_id": "6398c0509cefe6000a07df61",
+                                    "custom_field": {
+                                        "_id": "6398c0509cefe6000a07df61",
+                                        "id": "6398c0509cefe6000a07df61",
+                                        "for": "deal",
+                                        "label": "Fonte - Col\u00e9gio Anterior",
+                                        "order": 5,
+                                        "allow_new": false,
+                                        "required": false,
+                                        "type": "text",
+                                        "unique": false,
+                                        "visible": false,
+                                        "created_at": "2022-12-13T15:11:28.203-03:00",
+                                        "updated_at": "2023-01-31T11:25:47.806-03:00"
+                                    }
+                                    },
+                                    {
+                                        "value": null,
+                                        "created_at": null,
+                                        "updated_at": null,
+                                        "custom_field_id": "63d92686d27abe000bed288b",
+                                        "custom_field": {
+                                            "_id": "63d92686d27abe000bed288b",
+                                            "id": "63d92686d27abe000bed288b",
+                                            "for": "deal",
+                                            "label": "Ocorr\u00eancia",
+                                            "order": 7,
+                                            "allow_new": false,
+                                            "required": false,
+                                            "type": "multiple_choice",
+                                            "unique": false,
+                                            "visible": true,
+                                            "created_at": "2023-01-31T11:32:38.268-03:00",
+                                            "updated_at": "2023-01-31T11:32:38.268-03:00"
+                                        }
+                                        },
+                                        {
+                                            "value": null,
+                                            "created_at": null,
+                                            "updated_at": null,
+                                            "custom_field_id": "64529c8c7c5475000f11e40c",
+                                            "custom_field": {
+                                                "_id": "64529c8c7c5475000f11e40c",
+                                                "id": "64529c8c7c5475000f11e40c",
+                                                "for": "deal",
+                                                "label": "Registro Expans\u00e3o",
+                                                "order": 8,
+                                                "allow_new": false,
+                                                "required": false,
+                                                "type": "option",
+                                                "unique": false,
+                                                "visible": false,
+                                                "created_at": "2023-05-03T14:40:28.033-03:00",
+                                                "updated_at": "2023-05-17T17:17:46.061-03:00"
+                                            }
+                                        }
+            ],
+            "deal_products": [
+
+            ]
+        },
+        {
+                "_id": "647f1c7b38e7bb000d133237",
+                "id": "647f1c7b38e7bb000d133237",
+                "name": "Jane",
+                "amount_montly": 0.0,
+                "amount_unique": 0.0,
+                "amount_total": 0.0,
+                "prediction_date": null,
+                "markup": "future",
+                "last_activity_at": "2023-06-06T08:51:18.376-03:00",
+                "interactions": 3,
+                "markup_last_activities": "1 day",
+                "created_at": "2023-06-06T08:46:03.632-03:00",
+                "updated_at": "2023-06-06T08:51:20.709-03:00",
+                "rating": 2,
+                "markup_created": "1 day",
+                "last_activity_content": "Etapa modificada",
+                "user_changed": false,
+                "hold": null,
+                "win": null,
+                "closed_at": null,
+                "stop_time_limit": {
+                    "expiration_date_time": "2023-06-07T08:51:18.376-03:00",
+                    "expired": false,
+                    "expired_days": 0
+                },
+                "organization": {
+                    "_id": "647f1c7b38e7bb000d133238",
+                    "id": "647f1c7b38e7bb000d133238",
+                    "name": "Jane",
+                    "address": null,
+                    "address_latitude": null,
+                    "address_longitude": null,
+                    "user": {
+                        "_id": "638f274ad7dc07000d68ac51",
+                        "id": "638f274ad7dc07000d68ac51",
+                        "name": "Wilber Lima",
+                        "email": "wilber.lima@multiversoeducacao.com.br"
+                    },
+                    "organization_segments": [
+
+                    ]
+                },
+                "user": {
+                    "_id": "638f274ad7dc07000d68ac51",
+                    "id": "638f274ad7dc07000d68ac51",
+                    "name": "Wilber Lima",
+                    "nickname": "WL",
+                    "email": "wilber.lima@multiversoeducacao.com.br"
+                },
+                "deal_stage": {
+                    "_id": "6352b06341d5a90017402dbc",
+                    "id": "6352b06341d5a90017402dbc",
+                    "name": "MulBot",
+                    "nickname": "M",
+                    "created_at": "2022-10-21T11:44:51.279-03:00",
+                    "updated_at": "2023-01-30T11:11:36.779-03:00"
+                },
+                "contacts": [
+                    {
+                        "name": "Jane",
+                        "title": null,
+                        "notes": null,
+                        "facebook": null,
+                        "linkedin": null,
+                        "skype": null,
+                        "birthday": null,
+                        "emails": [
+                            {
+                                "email": "jane2gladys@hotmail.com"
+                            }
+                            ],
+                            "phones": [
+                                {
+                                    "phone": "+55 (85) 99677-9948",
+                                    "type": null
+                                }
+                            ]
+                    }
+                ],
+                "deal_custom_fields": [
+                    {
+                        "value": null,
+                        "created_at": null,
+                        "updated_at": null,
+                        "custom_field_id": "639774afa9441c000ce99542",
+                        "custom_field": {
+                            "_id": "639774afa9441c000ce99542",
+                            "id": "639774afa9441c000ce99542",
+                            "for": "deal",
+                            "label": "Nome do(a) aluno(a)",
+                            "order": 0,
+                            "allow_new": false,
+                            "required": false,
+                            "type": "text",
+                            "unique": false,
+                            "visible": true,
+                            "created_at": "2022-12-12T15:36:31.210-03:00",
+                            "updated_at": "2022-12-13T15:32:15.559-03:00"
+                        }
+                        },
+                        {
+                            "value": null,
+                            "created_at": null,
+                            "updated_at": null,
+                            "custom_field_id": "6398c3a8aa5a5a0012199e52",
+                            "custom_field": {
+                                "_id": "6398c3a8aa5a5a0012199e52",
+                                "id": "6398c3a8aa5a5a0012199e52",
+                                "for": "deal",
+                                "label": "Data de Nascimento",
+                                "order": 1,
+                                "allow_new": false,
+                                "required": false,
+                                "type": "date",
+                                "unique": false,
+                                "visible": false,
+                                "created_at": "2022-12-13T15:25:44.491-03:00",
+                                "updated_at": "2023-01-31T11:28:16.001-03:00"
+                            }
+                            },
+                            {
+                                "value": null,
+                                "created_at": null,
+                                "updated_at": null,
+                                "custom_field_id": "63861f2a69a5160015f5799c",
+                                "custom_field": {
+                                    "_id": "63861f2a69a5160015f5799c",
+                                    "id": "63861f2a69a5160015f5799c",
+                                    "for": "deal",
+                                    "label": "S\u00e9rie de Interesse",
+                                    "order": 2,
+                                    "allow_new": false,
+                                    "required": false,
+                                    "type": "multiple_choice",
+                                    "unique": false,
+                                    "visible": true,
+                                    "created_at": "2022-11-29T12:03:06.647-03:00",
+                                    "updated_at": "2022-12-13T15:34:32.647-03:00"
+                                }
+                                },
+                                {
+                                    "value": null,
+                                    "created_at": null,
+                                    "updated_at": null,
+                                    "custom_field_id": "6386108003c4ee00144f62b8",
+                                    "custom_field": {
+                                        "_id": "6386108003c4ee00144f62b8",
+                                        "id": "6386108003c4ee00144f62b8",
+                                        "for": "deal",
+                                        "label": "Interesse de Turnos",
+                                        "order": 3,
+                                        "allow_new": false,
+                                        "required": false,
+                                        "type": "multiple_choice",
+                                        "unique": false,
+                                        "visible": true,
+                                        "created_at": "2022-11-29T11:00:32.379-03:00",
+                                        "updated_at": "2022-12-13T16:07:30.868-03:00"
+                                    }
+                                    },
+                                    {
+                                        "value": null,
+                                        "created_at": null,
+                                        "updated_at": null,
+                                        "custom_field_id": "6398c47d3b5c58000bf7323b",
+                                        "custom_field": {
+                                            "_id": "6398c47d3b5c58000bf7323b",
+                                            "id": "6398c47d3b5c58000bf7323b",
+                                            "for": "deal",
+                                            "label": "Data para Visita",
+                                            "order": 4,
+                                            "allow_new": false,
+                                            "required": false,
+                                            "type": "date",
+                                            "unique": false,
+                                            "visible": false,
+                                            "created_at": "2022-12-13T15:29:17.522-03:00",
+                                            "updated_at": "2023-01-31T11:25:46.430-03:00"
+                                        }
+                                        },
+                                        {
+                                            "value": null,
+                                            "created_at": null,
+                                            "updated_at": null,
+                                            "custom_field_id": "6398c0509cefe6000a07df61",
+                                            "custom_field": {
+                                                "_id": "6398c0509cefe6000a07df61",
+                                                "id": "6398c0509cefe6000a07df61",
+                                                "for": "deal",
+                                                "label": "Fonte - Col\u00e9gio Anterior",
+                                                "order": 5,
+                                                "allow_new": false,
+                                                "required": false,
+                                                "type": "text",
+                                                "unique": false,
+                                                "visible": false,
+                                                "created_at": "2022-12-13T15:11:28.203-03:00",
+                                                "updated_at": "2023-01-31T11:25:47.806-03:00"
+                                            }
+                                            },
+                                            {
+                                                "value": null,
+                                                "created_at": null,
+                                                "updated_at": null,
+                                                "custom_field_id": "63d92686d27abe000bed288b",
+                                                "custom_field": {
+                                                    "_id": "63d92686d27abe000bed288b",
+                                                    "id": "63d92686d27abe000bed288b",
+                                                    "for": "deal",
+                                                    "label": "Ocorr\u00eancia",
+                                                    "order": 7,
+                                                    "allow_new": false,
+                                                    "required": false,
+                                                    "type": "multiple_choice",
+                                                    "unique": false,
+                                                    "visible": true,
+                                                    "created_at": "2023-01-31T11:32:38.268-03:00",
+                                                    "updated_at": "2023-01-31T11:32:38.268-03:00"
+                                                }
+                                                },
+                                                {
+                                                    "value": null,
+                                                    "created_at": null,
+                                                    "updated_at": null,
+                                                    "custom_field_id": "64529c8c7c5475000f11e40c",
+                                                    "custom_field": {
+                                                        "_id": "64529c8c7c5475000f11e40c",
+                                                        "id": "64529c8c7c5475000f11e40c",
+                                                        "for": "deal",
+                                                        "label": "Registro Expans\u00e3o",
+                                                        "order": 8,
+                                                        "allow_new": false,
+                                                        "required": false,
+                                                        "type": "option",
+                                                        "unique": false,
+                                                        "visible": false,
+                                                        "created_at": "2023-05-03T14:40:28.033-03:00",
+                                                        "updated_at": "2023-05-17T17:17:46.061-03:00"
+                                                    }
+                                                }
+                ],
+                "deal_products": [
+
+                ]
+        },
+        {
+                    "_id": "647dfb30030de2000de313a0",
+                    "contacts": [
+                        {
+                            "name": "Deivys Silveira",
+                            "title": null,
+                            "notes": null,
+                            "facebook": null,
+                            "linkedin": null,
+                            "skype": null,
+                            "birthday": null,
+                            "emails": [
+                                {
+                                    "email": "deivys.silveira@gmail.com"
+                                }
+                                ],
+                                "phones": [
+                                    {
+                                        "phone": "85982169526",
+                                        "type": "work"
+                                    }
+                                ]
+                            }
+                            ],
+                    "deal_custom_fields": [
+                                {
+                                    "value": "Maria Clara",
+                                    "created_at": null,
+                                    "updated_at": null,
+                                    "custom_field_id": "639774afa9441c000ce99542",
+                                    "custom_field": {
+                                        "_id": "639774afa9441c000ce99542",
+                                        "id": "639774afa9441c000ce99542",
+                                        "for": "deal",
+                                        "label": "Nome do(a) aluno(a)",
+                                        "order": 0,
+                                        "allow_new": false,
+                                        "required": false,
+                                        "type": "text",
+                                        "unique": false,
+                                        "visible": true,
+                                        "created_at": "2022-12-12T15:36:31.210-03:00",
+                                        "updated_at": "2022-12-13T15:32:15.559-03:00"
+                                    }
+                                },
+                                {
+                                    "value": null,
+                                    "created_at": null,
+                                    "updated_at": null,
+                                    "custom_field_id": "6398c3a8aa5a5a0012199e52",
+                                    "custom_field": {
+                                        "_id": "6398c3a8aa5a5a0012199e52",
+                                        "id": "6398c3a8aa5a5a0012199e52",
+                                        "for": "deal",
+                                        "label": "Data de Nascimento",
+                                        "order": 1,
+                                        "allow_new": false,
+                                        "required": false,
+                                        "type": "date",
+                                        "unique": false,
+                                        "visible": false,
+                                        "created_at": "2022-12-13T15:25:44.491-03:00",
+                                        "updated_at": "2023-01-31T11:28:16.001-03:00"
+                                    }
+                                    },
+                                    {
+                                        "value": [
+                                            "7\u00ba ano"
+                                            ],
+                                            "created_at": null,
+                                            "updated_at": null,
+                                            "custom_field_id": "63861f2a69a5160015f5799c",
+                                            "custom_field": {
+                                                "_id": "63861f2a69a5160015f5799c",
+                                                "id": "63861f2a69a5160015f5799c",
+                                                "for": "deal", "label": "S\u00e9rie de Interesse",
+                                                "order": 2,
+                                                "allow_new": false,
+                                                "required": false,
+                                                "type": "multiple_choice",
+                                                "unique": false,
+                                                "visible": true,
+                                                "created_at": "2022-11-29T12:03:06.647-03:00",
+                                                "updated_at": "2022-12-13T15:34:32.647-03:00"
+                                            }
+                                            },
+                                            {
+                                                "value": null,
+                                                "created_at": null,
+                                                "updated_at": null,
+                                                "custom_field_id": "6386108003c4ee00144f62b8",
+                                                "custom_field": {
+                                                    "_id": "6386108003c4ee00144f62b8",
+                                                    "id": "6386108003c4ee00144f62b8",
+                                                    "for": "deal",
+                                                    "label": "Interesse de Turnos",
+                                                    "order": 3,
+                                                    "allow_new": false,
+                                                    "required": false,
+                                                    "type": "multiple_choice",
+                                                    "unique": false,
+                                                    "visible": true,
+                                                    "created_at": "2022-11-29T11:00:32.379-03:00",
+                                                    "updated_at": "2022-12-13T16:07:30.868-03:00"
+                                                }
+                                                },
+                                                {
+                                                    "value": null,
+                                                    "created_at": null,
+                                                    "updated_at": null,
+                                                    "custom_field_id": "6398c47d3b5c58000bf7323b",
+                                                    "custom_field": {
+                                                        "_id": "6398c47d3b5c58000bf7323b",
+                                                        "id": "6398c47d3b5c58000bf7323b",
+                                                        "for": "deal",
+                                                        "label": "Data para Visita",
+                                                        "order": 4,
+                                                        "allow_new": false,
+                                                        "required": false,
+                                                        "type": "date",
+                                                        "unique": false,
+                                                        "visible": false,
+                                                        "created_at": "2022-12-13T15:29:17.522-03:00",
+                                                        "updated_at": "2023-01-31T11:25:46.430-03:00"
+                                                    }
+                                                },
+                                                {
+                                                    "value": null,
+                                                    "created_at": null,
+                                                    "updated_at": null,
+                                                    "custom_field_id": "6398c0509cefe6000a07df61",
+                                                    "custom_field": {
+                                                        "_id": "6398c0509cefe6000a07df61",
+                                                        "id": "6398c0509cefe6000a07df61",
+                                                        "for": "deal",
+                                                        "label": "Fonte - Col\u00e9gio Anterior",
+                                                        "order": 5,
+                                                        "allow_new": false,
+                                                        "required": false,
+                                                        "type": "text",
+                                                        "unique": false,
+                                                        "visible": false,
+                                                        "created_at": "2022-12-13T15:11:28.203-03:00",
+                                                        "updated_at": "2023-01-31T11:25:47.806-03:00"
+                                                    }
+                                                },
+                                                {
+                                                    "value": [
+                                                        "Solicita\u00e7\u00e3o"
+                                                    ],
+                                                    "created_at": null,
+                                                    "updated_at": null,
+                                                    "custom_field_id": "63d92686d27abe000bed288b",
+                                                    "custom_field": {
+                                                        "_id": "63d92686d27abe000bed288b",
+                                                        "id": "63d92686d27abe000bed288b",
+                                                        "for": "deal",
+                                                        "label": "Ocorr\u00eancia",
+                                                        "order": 7,
+                                                        "allow_new": false,
+                                                        "required": false,
+                                                        "type": "multiple_choice",
+                                                        "unique": false,
+                                                        "visible": true,
+                                                        "created_at": "2023-01-31T11:32:38.268-03:00",
+                                                        "updated_at": "2023-01-31T11:32:38.268-03:00"
+                                                    }
+                                                },
+                                                {
+                                                    "value": null,
+                                                    "created_at": null,
+                                                    "updated_at": null,
+                                                    "custom_field_id": "64529c8c7c5475000f11e40c",
+                                                    "custom_field": {
+                                                        "_id": "64529c8c7c5475000f11e40c",
+                                                        "id": "64529c8c7c5475000f11e40c",
+                                                        "for": "deal",
+                                                        "label": "Registro Expans\u00e3o",
+                                                        "order": 8,
+                                                        "allow_new": false,
+                                                        "required": false,
+                                                        "type": "option",
+                                                        "unique": false,
+                                                        "visible": false,
+                                                        "created_at": "2023-05-03T14:40:28.033-03:00",
+                                                        "updated_at": "2023-05-17T17:17:46.061-03:00"
+                                                    }
+                                                }
+                            ],
+                    "deal_products": [
+
+                            ]
+        },
+        {
+                            "_id": "647df102fd858b000e088264",
+                            "id": "647df102fd858b000e088264",
+                            "name": "Maria Emanuele - SOLICITA\u00c7\u00c3O",
+                            "amount_montly": 0.0,
+                            "amount_unique": 0.0,
+                            "amount_total": 0.0,
+                            "prediction_date": null,
+                            "markup": "future",
+                            "last_activity_at": null,
+                            "interactions": 2,
+                            "markup_last_activities": null,
+                            "created_at": "2023-06-05T11:28:18.371-03:00",
+                            "updated_at": "2023-06-05T11:28:18.371-03:00",
+                            "rating": 1,
+                            "markup_created": "2 days",
+                            "last_activity_content": null,
+                            "user_changed": false,
+                            "hold": null,
+                            "win": null,
+                            "closed_at": null,
+                            "stop_time_limit": {
+
+                            },
+                            "organization": {
+                                "_id": "647df102fd858b000e088265",
+                                "id": "647df102fd858b000e088265",
+                                "name": "Edwin Sousa Lomonte",
+                                "address": null,
+                                "address_latitude": null,
+                                "address_longitude": null,
+                                "user": {
+                                    "_id": "6398bcf69cefe6000a07d7bb",
+                                    "id": "6398bcf69cefe6000a07d7bb",
+                                    "name": "Giovanna Medeiros",
+                                    "email": "giovanna.medeiros@multiversoeducacao.com.br"
+                                },
+                                "organization_segments": [
+
+                                ]
+                            },
+                            "user": {
+                                "_id": "6398bcf69cefe6000a07d7bb",
+                                "id": "6398bcf69cefe6000a07d7bb",
+                                "name": "Giovanna Medeiros",
+                                "nickname": "GM",
+                                "email": "giovanna.medeiros@multiversoeducacao.com.br"
+                            },
+                            "deal_stage": {
+                                "_id": "63d52142f98ec4002cb1beed",
+                                "id": "63d52142f98ec4002cb1beed",
+                                "name": "Conclu\u00eddo",
+                                "nickname": "C",
+                                "created_at": "2023-01-28T10:21:06.551-03:00",
+                                "updated_at": "2023-04-26T15:11:51.751-03:00"
+                            },
+                            "contacts": [
+                                {
+                                    "name": "Maria Emanuele Correia",
+                                    "title": null,
+                                    "notes": null,
+                                    "facebook": null,
+                                    "linkedin": null,
+                                    "skype": null,
+                                    "birthday": null,
+                                    "emails": [
+                                        {
+                                            "email": "mariamanucsousa@gmail.com"
+                                        }
+                                    ],
+                                    "phones": [
+                                        {
+                                            "phone": "85997521671",
+                                            "type": "work"
+                                        }
+                                    ]
+                                }
+                                ],
+                                "deal_custom_fields": [
+                                    {
+                                        "value": "Edwin",
+                                        "created_at": null,
+                                        "updated_at": null,
+                                        "custom_field_id": "639774afa9441c000ce99542",
+                                        "custom_field": {
+                                            "_id": "639774afa9441c000ce99542",
+                                            "id": "639774afa9441c000ce99542",
+                                            "for": "deal",
+                                            "label": "Nome do(a) aluno(a)",
+                                            "order": 0,
+                                            "allow_new": false,
+                                            "required": false,
+                                            "type": "text",
+                                            "unique": false,
+                                            "visible": true,
+                                            "created_at": "2022-12-12T15:36:31.210-03:00",
+                                            "updated_at": "2022-12-13T15:32:15.559-03:00"
+                                        }
+                                    },
+                                    {
+                                        "value": null,
+                                        "created_at": null,
+                                        "updated_at": null,
+                                        "custom_field_id": "6398c3a8aa5a5a0012199e52",
+                                        "custom_field": {
+                                            "_id": "6398c3a8aa5a5a0012199e52",
+                                            "id": "6398c3a8aa5a5a0012199e52",
+                                            "for": "deal",
+                                            "label": "Data de Nascimento",
+                                            "order": 1,
+                                            "allow_new": false,
+                                            "required": false,
+                                            "type": "date",
+                                            "unique": false,
+                                            "visible": false,
+                                            "created_at": "2022-12-13T15:25:44.491-03:00",
+                                            "updated_at": "2023-01-31T11:28:16.001-03:00"
+                                        }
+                                    },
+                                    {"value":
+                                    [
+                                        "2\u00ba ano"
+                                    ],
+                                    "created_at": null,
+                                    "updated_at": null,
+                                    "custom_field_id": "63861f2a69a5160015f5799c",
+                                    "custom_field": {
+                                        "_id": "63861f2a69a5160015f5799c",
+                                        "id": "63861f2a69a5160015f5799c",
+                                        "for": "deal",
+                                        "label": "S\u00e9rie de Interesse",
+                                        "order": 2,
+                                        "allow_new": false,
+                                        "required": false,
+                                        "type": "multiple_choice",
+                                        "unique": false,
+                                        "visible": true,
+                                        "created_at": "2022-11-29T12:03:06.647-03:00",
+                                        "updated_at": "2022-12-13T15:34:32.647-03:00"
+                                    }
+                                },
+                                {"value": [
+
+                                ],
+                                "created_at": null,
+                                "updated_at": null,
+                                "custom_field_id": "6386108003c4ee00144f62b8",
+                                "custom_field": {
+                                    "_id": "6386108003c4ee00144f62b8",
+                                    "id": "6386108003c4ee00144f62b8",
+                                    "for": "deal",
+                                    "label": "Interesse de Turnos",
+                                    "order": 3,
+                                    "allow_new": false,
+                                    "required": false,
+                                    "type": "multiple_choice",
+                                    "unique": false,
+                                    "visible": true,
+                                    "created_at": "2022-11-29T11:00:32.379-03:00",
+                                    "updated_at": "2022-12-13T16:07:30.868-03:00"
+                                }
+                            },
+                            {
+                                "value": null,
+                                "created_at": null,
+                                "updated_at": null,
+                                "custom_field_id": "6398c47d3b5c58000bf7323b",
+                                "custom_field": {
+                                    "_id": "6398c47d3b5c58000bf7323b",
+                                    "id": "6398c47d3b5c58000bf7323b",
+                                    "for": "deal",
+                                    "label": "Data para Visita",
+                                    "order": 4,
+                                    "allow_new": false,
+                                    "required": false,
+                                    "type": "date",
+                                    "unique": false,
+                                    "visible": false,
+                                    "created_at": "2022-12-13T15:29:17.522-03:00",
+                                    "updated_at": "2023-01-31T11:25:46.430-03:00"
+                                }
+                            },
+                            {
+                                "value": null,
+                                "created_at": null,
+                                "updated_at": null,
+                                "custom_field_id": "6398c0509cefe6000a07df61",
+                                "custom_field": {
+                                    "_id": "6398c0509cefe6000a07df61",
+                                    "id": "6398c0509cefe6000a07df61",
+                                    "for": "deal",
+                                    "label": "Fonte - Col\u00e9gio Anterior",
+                                    "order": 5,
+                                    "allow_new": false,
+                                    "required": false,
+                                    "type": "text",
+                                    "unique": false,
+                                    "visible": false,
+                                    "created_at": "2022-12-13T15:11:28.203-03:00",
+                                    "updated_at": "2023-01-31T11:25:47.806-03:00"
+                                }
+                            },
+                            {"value": [
+                                "Solicita\u00e7\u00e3o"],
+                                "created_at": null,
+                                "updated_at": null,
+                                "custom_field_id": "63d92686d27abe000bed288b",
+                                "custom_field": {
+                                    "_id": "63d92686d27abe000bed288b",
+                                    "id": "63d92686d27abe000bed288b",
+                                    "for": "deal", "label": "Ocorr\u00eancia", "order": 7, "allow_new": false, "required": false, "type": "multiple_choice",
+                                    "unique": false,
+                                    "visible": true,
+                                    "created_at": "2023-01-31T11:32:38.268-03:00",
+                                    "updated_at": "2023-01-31T11:32:38.268-03:00"
+                                }
+                                },
+                                {"value": null,
+                                "created_at": null,
+                                "updated_at": null,
+                                "custom_field_id": "64529c8c7c5475000f11e40c",
+                                "custom_field": {
+                                    "_id": "64529c8c7c5475000f11e40c",
+                                    "id": "64529c8c7c5475000f11e40c",
+                                    "for": "deal",
+                                    "label": "Registro Expans\u00e3o",
+                                    "order": 8,
+                                    "allow_new": false,
+                                    "required": false,
+                                    "type": "option", "unique": false,
+                                    "visible": false,
+                                    "created_at": "2023-05-03T14:40:28.033-03:00",
+                                    "updated_at": "2023-05-17T17:17:46.061-03:00"
+                                }
+                            }
+                        ],"deal_products": [
+
+                        ]
+        },
+        {
+                        "_id": "647defdcb3d96b000d7cbd26",
+                        "id": "647defdcb3d96b000d7cbd26",
+                        "name": "Emanuele - SOLICITA\u00c7\u00c3O",
+                        "amount_montly": 0.0,
+                        "amount_unique": 0.0,
+                        "amount_total": 0.0,
+                        "prediction_date": null,
+                        "markup": "future",
+                        "last_activity_at": null,
+                        "interactions": 2,
+                        "markup_last_activities": null,
+                        "created_at": "2023-06-05T11:23:24.978-03:00",
+                        "updated_at": "2023-06-05T11:23:28.669-03:00",
+                        "rating": 1,
+                        "markup_created": "2 days",
+                        "last_activity_content": null,
+                        "user_changed": false,
+                        "hold": null,
+                        "win": null,
+                        "closed_at": null,
+                        "stop_time_limit": {
+
+                        },
+                        "organization": {
+                            "_id": "647defdcb3d96b000d7cbd27",
+                            "id": "647defdcb3d96b000d7cbd27",
+                            "name": "Laura Correia de Sousa",
+                            "address": null,
+                            "address_latitude": null,
+                            "address_longitude": null,
+                            "user": {
+                                "_id": "6398bcf69cefe6000a07d7bb",
+                                "id": "6398bcf69cefe6000a07d7bb",
+                                "name": "Giovanna Medeiros",
+                                "email": "giovanna.medeiros@multiversoeducacao.com.br"
+                            },
+                            "organization_segments": [
+
+                            ]
+                            }, "user": {
+                                "_id": "6398bcf69cefe6000a07d7bb",
+                                "id": "6398bcf69cefe6000a07d7bb",
+                                "name": "Giovanna Medeiros",
+                                "nickname": "GM",
+                                "email": "giovanna.medeiros@multiversoeducacao.com.br"
+                            },
+                            "deal_stage": {
+                                "_id": "63d52142f98ec4002cb1beed",
+                                "id": "63d52142f98ec4002cb1beed",
+                                "name": "Conclu\u00eddo",
+                                "nickname": "C",
+                                "created_at": "2023-01-28T10:21:06.551-03:00",
+                                "updated_at": "2023-04-26T15:11:51.751-03:00"
+                            },
+                            "contacts": [
+                                {
+                                    "name": "Maria Emanuele Correia",
+                                    "title": null,
+                                    "notes": null,
+                                    "facebook": null,
+                                    "linkedin": null,
+                                    "skype": null,
+                                    "birthday": null,
+                                    "emails": [
+                                        {
+                                            "email": "mariamanucsousa@gmail.com"
+                                        }
+                                    ],
+                                    "phones": [
+                                        {"phone": "85997521671",
+                                        "type": "work"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "deal_custom_fields": [
+                                {
+                                    "value": "Laura",
+                                    "created_at": null,
+                                    "updated_at": null,
+                                    "custom_field_id": "639774afa9441c000ce99542",
+                                    "custom_field": {
+                                        "_id": "639774afa9441c000ce99542",
+                                        "id": "639774afa9441c000ce99542",
+                                        "for": "deal",
+                                        "label": "Nome do(a) aluno(a)",
+                                        "order": 0,
+                                        "allow_new": false,
+                                        "required": false,
+                                        "type": "text",
+                                        "unique": false,
+                                        "visible": true,
+                                        "created_at": "2022-12-12T15:36:31.210-03:00",
+                                        "updated_at": "2022-12-13T15:32:15.559-03:00"
+                                    }
+                                },
+                                {
+                                    "value": null,
+                                    "created_at": null,
+                                    "updated_at": null,
+                                    "custom_field_id": "6398c3a8aa5a5a0012199e52",
+                                    "custom_field": {
+                                        "_id": "6398c3a8aa5a5a0012199e52",
+                                        "id": "6398c3a8aa5a5a0012199e52",
+                                        "for": "deal",
+                                        "label": "Data de Nascimento",
+                                        "order": 1,
+                                        "allow_new": false,
+                                        "required": false,
+                                        "type": "date",
+                                        "unique": false,
+                                        "visible": false,
+                                        "created_at": "2022-12-13T15:25:44.491-03:00",
+                                        "updated_at": "2023-01-31T11:28:16.001-03:00"
+                                    }
+                                },
+                                {
+                                    "value": null,
+                                    "created_at": null,
+                                    "updated_at": null,
+                                    "custom_field_id": "63861f2a69a5160015f5799c",
+                                    "custom_field": {
+                                        "_id": "63861f2a69a5160015f5799c",
+                                        "id": "63861f2a69a5160015f5799c",
+                                        "for": "deal",
+                                        "label": "S\u00e9rie de Interesse",
+                                        "order": 2,
+                                        "allow_new": false,
+                                        "required": false,
+                                        "type": "multiple_choice",
+                                        "unique": false,
+                                        "visible": true,
+                                        "created_at": "2022-11-29T12:03:06.647-03:00",
+                                        "updated_at": "2022-12-13T15:34:32.647-03:00"
+                                    }
+                                },
+                                {
+                                    "value": null,
+                                    "created_at": null,
+                                    "updated_at": null,
+                                    "custom_field_id": "6386108003c4ee00144f62b8",
+                                    "custom_field": {
+                                        "_id": "6386108003c4ee00144f62b8",
+                                        "id": "6386108003c4ee00144f62b8",
+                                        "for": "deal",
+                                        "label": "Interesse de Turnos",
+                                        "order": 3,
+                                        "allow_new": false,
+                                        "required": false,
+                                        "type": "multiple_choice",
+                                        "unique": false,
+                                        "visible": true,
+                                        "created_at": "2022-11-29T11:00:32.379-03:00",
+                                        "updated_at": "2022-12-13T16:07:30.868-03:00"
+
+                                    }
+                                },
+                                {
+                                    "value": null,
+                                    "created_at": null,
+                                    "updated_at": null,
+                                    "custom_field_id": "6398c47d3b5c58000bf7323b",
+                                    "custom_field": {
+                                        "_id": "6398c47d3b5c58000bf7323b",
+                                        "id": "6398c47d3b5c58000bf7323b",
+                                        "for": "deal",
+                                        "label": "Data para Visita",
+                                        "order": 4,
+                                        "allow_new": false,
+                                        "required": false,
+                                        "type": "date",
+                                        "unique": false,
+                                        "visible": false,
+                                        "created_at": "2022-12-13T15:29:17.522-03:00",
+                                        "updated_at": "2023-01-31T11:25:46.430-03:00"
+                                    }
+                                },
+                                {
+                                    "value": null,
+                                    "created_at": null,
+                                    "updated_at": null,
+                                    "custom_field_id": "6398c0509cefe6000a07df61",
+                                    "custom_field": {
+                                        "_id": "6398c0509cefe6000a07df61",
+                                        "id": "6398c0509cefe6000a07df61",
+                                        "for": "deal",
+                                        "label": "Fonte - Col\u00e9gio Anterior",
+                                        "order": 5,
+                                        "allow_new": false,
+                                        "required": false,
+                                        "type": "text",
+                                        "unique": false,
+                                        "visible": false,
+                                        "created_at": "2022-12-13T15:11:28.203-03:00",
+                                        "updated_at": "2023-01-31T11:25:47.806-03:00"
+                                    }
+                                },
+                                {
+                                    "value": [
+                                        "Solicita\u00e7\u00e3o"
+                                    ],
+                                    "created_at": null,
+                                    "updated_at": null,
+                                    "custom_field_id": "63d92686d27abe000bed288b",
+                                    "custom_field": {
+                                        "_id": "63d92686d27abe000bed288b",
+                                        "id": "63d92686d27abe000bed288b",
+                                        "for": "deal",
+                                        "label": "Ocorr\u00eancia",
+                                        "order": 7,
+                                        "allow_new": false,
+                                        "required": false,
+                                        "type": "multiple_choice",
+                                        "unique": false,
+                                        "visible": true,
+                                        "created_at": "2023-01-31T11:32:38.268-03:00",
+                                        "updated_at": "2023-01-31T11:32:38.268-03:00"
+                                    }
+                                },
+                                {
+                                    "value": null,
+                                    "created_at": null,
+                                    "updated_at": null,
+                                    "custom_field_id": "64529c8c7c5475000f11e40c",
+                                    "custom_field": {
+                                        "_id": "64529c8c7c5475000f11e40c",
+                                        "id": "64529c8c7c5475000f11e40c",
+                                        "for": "deal",
+                                        "label": "Registro Expans\u00e3o",
+                                        "order": 8,
+                                        "allow_new": false,
+                                        "required": false,
+                                        "type": "option",
+                                        "unique": false,
+                                        "visible": false,
+                                        "created_at": "2023-05-03T14:40:28.033-03:00",
+                                        "updated_at": "2023-05-17T17:17:46.061-03:00"
+                                    }
+                                }
+                            ],
+                            "deal_products": [
+
+                            ]
+        }
+    ]
+},

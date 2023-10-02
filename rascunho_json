@@ -1,0 +1,188 @@
+import psycopg2
+import json
+import os
+
+# Conexão com o banco de dados PostgreSQL
+conn = psycopg2.connect(
+    host="localhost",
+    port=5433,
+    database="Multiverso",
+    user="postgres",
+    password="Multiverso@Educa"
+)
+
+# Cursor
+cur = conn.cursor()
+
+################# OPORTUNIDADE ###############################
+
+# Define o diretório onde os arquivos JSON estão armazenados
+directory = r'C:\Users\Victor\PycharmProjects\pythonProject\Oportunidade'
+
+# Lista os nomes dos arquivos JSON no diretório
+json_opt_files = os.listdir(directory)
+
+# Loop através de cada arquivo JSON
+for oportjson in json_opt_files:
+    # Verifica se o arquivo é um arquivo JSON válido
+    if oportjson.endswith('.json'):
+        # Caminho completo para o arquivo JSON
+        json_file_path = os.path.join(directory, oportjson)
+
+        # Abre o arquivo JSON
+        with open(json_file_path, 'r') as f:
+            # Carrega os dados do arquivo JSON
+            data = json.load(f)
+
+            # Loop através de cada "deal" no arquivo JSON
+            for deal in data['deals']:
+                # Verifica se a chave 'stop_time_limit' existe no dicionário 'deal'
+                if 'stop_time_limit' in deal:
+                    stop_time_limit = deal['stop_time_limit']
+                    if stop_time_limit:
+                        deal_stop_time_limit_expiration_date_time = stop_time_limit.get('expiration_date_time', 0)
+                        deal_stop_time_limit_expired = stop_time_limit.get('expired', 0)
+                        deal_stop_time_limit_expired_days = stop_time_limit.get('expired_days', 0)
+                    else:
+                        deal_stop_time_limit_expiration_date_time = 0
+                        deal_stop_time_limit_expired = 0
+                        deal_stop_time_limit_expired_days = 0
+                else:
+                    deal_stop_time_limit_expiration_date_time = 0
+                    deal_stop_time_limit_expired = 0
+                    deal_stop_time_limit_expired_days = 0
+
+                # Verifica se a chave 'organization' existe no dicionário 'deal'
+                if 'organization' in deal:
+                    organization = deal['organization']
+
+                    # Obtém os valores das chaves desejadas ou define como 0 se não existirem
+                    deal_organization_id = organization['_id']
+                    deal_user__id = organization['user']['_id']
+                else:
+                    # Define os valores como 0 se a chave 'organization' não existir
+                    deal_organization_id = 0
+                    deal_user__id = 0
+
+                # Verifica se a chave 'user' existe no dicionário 'deal'
+                if 'user' in deal:
+                    deal_user_id = deal['user']['id']
+                    deal_user_name = deal['user']['name']
+                else:
+                    deal_user_id = 0
+                    deal_user_name = 0
+
+                # Verifica se a chave 'deal_custom_fields' existe no dicionário 'deal'
+                if 'deal_custom_fields' in deal:
+                    deal_custom_fields = deal['deal_custom_fields']
+                    if deal_custom_fields:
+                        deal_custom_field = deal_custom_fields[0]  # Obtém o primeiro dicionário da lista
+                        deal_deal_custom_fields11_custom_field_id = deal_custom_field.get('custom_field_id', 0)
+                    else:
+                        deal_deal_custom_fields11_custom_field_id = 0
+                else:
+                    deal_deal_custom_fields11_custom_field_id = 0
+
+                if 'deal_stage' in deal:
+                    deal_deal_stage_id = deal['deal_stage']['id']
+                    deal_deal_stage_name = deal['deal_stage']['name']
+                else:
+                    deal_deal_stage_id = 0
+                    deal_deal_stage_name = 0
+
+                if 'deal_source' in deal:
+                    deal_deal_source_id = deal['deal_source']['id']
+                    deal_deal_source_name = deal['deal_source']['name']
+                else:
+                    deal_deal_source_id = 0
+                    deal_deal_source_name = 0
+
+                if 'campaign' in deal:
+                    deal_campaign_id = deal['campaign']['id']
+                    deal_campaign_name = deal['campaign']['name']
+                else:
+                    deal_campaign_id = 0
+                    deal_campaign_name = 0
+
+                if 'contacts' in deal:
+                    deal_contacts = deal['contacts']
+                    if deal_contacts:
+                        deal_contacts = deal_contacts[0]  # Obtém o primeiro dicionário da lista
+                        deal_contacts_name = deal_contacts.get('name', 0)
+                    else:
+                        deal_contacts_name = 0
+                else:
+                    deal_contacts_name = 0
+
+                if 'deal_products' in deal:
+                    deal_products = deal['deal_products']
+                    if deal_products:
+                        deal_deal_products = deal_products[0]  # Obtém o primeiro dicionário da lista
+                        deal_deal_products = deal_deal_products.get('custom_field_id', 0)
+                    else:
+                        deal_deal_products = 0
+                else:
+                    deal_deal_products = 0
+
+                if 'stop_time_limit' in deal:
+                    deal_stop_time_limit = deal['stop_time_limit']
+                    if stop_time_limit:
+                        deal_stop_time_limit = deal['stop_time_limit']
+                        deal_deal_stop_time_limit_date = deal_stop_time_limit.get('expiration_date_time', 0)
+                        deal_deal_stop_time_limit_expired = deal_stop_time_limit.get('expired', 0)
+                        deal_deal_stop_time_limit_expired_days = deal_stop_time_limit.get('expired_days', 0)
+                    else:
+                        deal_deal_stop_time_limit_date = 0
+                        deal_deal_stop_time_limit_expired = 0
+                        deal_deal_stop_time_limit_expired_days = 0
+                else:
+                    deal_deal_stop_time_limit_date = 0
+                    deal_deal_stop_time_limit_expired = 0
+                    deal_deal_stop_time_limit_expired_days = 0
+
+                deal_id = deal['id'],
+                deal_name = deal['name'],
+                deal_amount_montly = deal['amount_montly'],
+                deal_amount_unique = deal['amount_unique'],
+                deal_amount_total = deal['amount_total'],
+                deal_prediction_date = deal['prediction_date'],
+                deal_markup = deal['markup'],
+                deal_last_activity_at = deal['last_activity_at'],
+                deal_interactions = deal['interactions'],
+                deal_markup_last_activities = deal['markup_last_activities'],
+                deal_created_at = deal['created_at'],
+                deal_update_at = deal.get('update_at',0),
+                deal_rating = deal['rating'],
+                deal_markup_created = deal['markup_created'],
+                deal_last_activity_content = deal['last_activity_content'],
+                deal_user_changed = deal['user_changed'],
+                deal_hold = deal['hold'],
+                deal_win = deal['win'],
+                deal_closed_at = deal['closed_at'],
+
+
+
+
+                cur.execute("""INSERT INTO TESTES2 (insert_time, deal_stop_time_limit_expired_days, deal_stop_time_limit_expiration_date_time,
+                deal_stop_time_limit_expired, deal_organization_id, deal_user__id,
+                deal_user_id, deal_user_name, deal_deal_custom_fields11_custom_field_id, deal_deal_stage_id,
+                deal_deal_stage_name, deal_deal_source_id, deal_deal_source_name, deal_campaign_id,
+                deal_campaign_name, deal_contacts_name, deal_deal_products, deal_id, deal_name,
+                deal_amount_montly, deal_amount_unique, deal_amount_total, deal_prediction_date, deal_markup,
+                deal_last_activity_at, deal_interactions, deal_markup_last_activities,
+                deal_created_at, deal_update_at, deal_rating, deal_markup_created, deal_last_activity_content,
+                deal_user_changed, deal_hold, deal_win, deal_closed_at, deal_deal_stop_time_limit_date, deal_deal_stop_time_limit_expired,deal_deal_stop_time_limit_expired_days 
+                ) VALUES ( NOW(), %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);""",
+                            (deal_stop_time_limit_expired_days, deal_stop_time_limit_expiration_date_time, deal_stop_time_limit_expired,
+                             deal_organization_id, deal_user__id, deal_user_id, deal_user_name, deal_deal_custom_fields11_custom_field_id,
+                             deal_deal_stage_id, deal_deal_stage_name, deal_deal_source_id,
+                             deal_deal_source_name, deal_campaign_id, deal_campaign_name, deal_contacts_name, deal_deal_products,
+                             deal_id, deal_name, deal_amount_montly, deal_amount_unique, deal_amount_total, deal_prediction_date,
+                             deal_markup, deal_last_activity_at, deal_interactions, deal_markup_last_activities, deal_created_at,
+                             deal_update_at, deal_rating, deal_markup_created, deal_last_activity_content, deal_user_changed, deal_hold,
+                             deal_win, deal_closed_at, deal_deal_stop_time_limit_date, deal_deal_stop_time_limit_expired,deal_deal_stop_time_limit_expired_days))
+
+# Commit e fechamento da conexão
+conn.commit()
+cur.close()
+conn.close()
