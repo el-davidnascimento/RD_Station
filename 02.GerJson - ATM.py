@@ -89,3 +89,55 @@ filename = f'funil_{params["page"]}.json'
 path = os.path.join(directory, filename)
 with open(path, 'w') as f:
     json.dump(data_funil, f)
+
+
+########################## MBX ##################################
+
+import requests
+import json
+import os
+from datetime import datetime
+
+url = "http://sip.mbxinteligencia.com.br/api/v1/calls/list"
+headers = {
+    "token-auth": "192f98a5-0716-4480-be3c-5d2d49243fed"
+}
+
+start_date = "2024-01-24"
+end_date = "2024-01-26"
+params = {
+    "start_date": start_date,
+    "end_date": end_date
+}
+
+output_folder = r"G:\.shortcut-targets-by-id\1kArAZwgCxrjbQwQOPEzeJLtMUll3VVJ7\13. Dados\13.9. Atendimento\13.9.4. MBX\13.9.4.1. MBX - GERAL"  # Substitua pelo caminho desejado
+
+try:
+    response = requests.get(url, headers=headers, params=params)
+
+
+    # Verifique se a solicitação foi bem-sucedida (código de status 200)
+    if response.status_code == 200:
+        data = response.json()
+
+        # Gera um nome de arquivo com base nas datas de início e fim
+        date_format = "%Y-%m-%d"
+        start_date_obj = datetime.strptime(start_date, date_format).date()
+        end_date_obj = datetime.strptime(end_date, date_format).date()
+
+        filename = f"resposta_api_{start_date_obj}_{end_date_obj}.json"
+        output_file = os.path.join(output_folder, filename)
+
+        # Certifique-se de que a pasta de saída exista
+        if not os.path.exists(output_folder):
+            os.makedirs(output_folder)
+
+        with open(output_file, "w") as file:
+            json.dump(data, file, indent=4)
+
+        print(f"Resposta da API salva em {output_file}")
+    else:
+        print(f"Falha na solicitação. Código de status: {response.status_code}")
+
+except Exception as e:
+    print(f"Erro durante a solicitação: {e}")
